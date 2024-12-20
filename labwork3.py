@@ -14,6 +14,9 @@ class Students:
     def get_id(self):
         return self.__id
     
+    def get_dob(self):
+        return self.__dob
+    
     def __str__(self):
         return f"Name: {self.__name}, ID: {self.__id}, DOB: {self.__dob}"
 
@@ -29,7 +32,7 @@ class Course:
         return self.__id
     
     def __str__(self):
-        return f"Name: {self.__name}, ID: {self.__id}, DOB: {self.__dob}"
+        return f"Name: {self.__name}, ID: {self.__id}"
 
 class Mark:
     def __init__(self):
